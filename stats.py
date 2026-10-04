@@ -1,3 +1,6 @@
+def sort_on(char_tuple: tuple[str, int]) -> int:
+  return char_tuple[1]
+
 def count_words(book_text: str) -> int:
   word_list = book_text.split()
   word_count = len(word_list)
